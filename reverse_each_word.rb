@@ -3,10 +3,8 @@ def reverse_each_word(string)
   counter=0 
   new_string=string.split(" ")
   new_string.collect do |word|
-  
-   string_2[counter]=word.reverse
-   counter+=1
+  string_2[counter]=word.reverse
+  counter+=1
   end
- 
 return string_2.join(" ")  
 end
